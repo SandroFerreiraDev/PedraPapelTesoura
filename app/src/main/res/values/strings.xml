@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PedraPapelTesoura</string>
+    <string name="_1x1">1x1</string>
+    <string name="_1x1x1">1x1x1</string>
+    <string name="pedra_papel_tesoura">Pedra Papel Tesoura</string>
 </resources>
