@@ -26,7 +26,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        android:src="@drawable/ic_rps"/>
+        android:src="@drawable/ic_rps"
+        android:contentDescription="@string/imagem_escolha_jogador"/>
 
     <ImageView
         android:id="@+id/imgComputerChoice1"
@@ -37,7 +38,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="@id/imgComputerChoice2"
         app:layout_constraintHorizontal_bias="0.5"
-        android:src="@drawable/ic_rps"/>
+        android:src="@drawable/ic_rps"
+        android:contentDescription="@string/imagem_escolha_computador"/>
 
     <ImageView
         android:id="@+id/imgComputerChoice2"
@@ -48,7 +50,8 @@
         app:layout_constraintStart_toStartOf="@id/imgComputerChoice1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        android:src="@drawable/ic_rps"/>
+        android:src="@drawable/ic_rps"
+        android:contentDescription="@string/imagem_escolha_computador"/>
 
     <Button
         android:id="@+id/btnRock"

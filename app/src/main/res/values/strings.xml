@@ -7,4 +7,7 @@
     <string name="papel">Papel</string>
     <string name="tesoura">Tesoura</string>
     <string name="pedra_papel_tesoura_1x1x1">Pedra, Papel, Tesoura 1x1x1</string>
+    <string name="pedra_papel_tesoura_1x1">Pedra, Papel, Tesoura 1x1</string>
+    <string name="imagem_escolha_jogador">Imagem escolha jogador</string>
+    <string name="imagem_escolha_computador">Imagem escolha computador</string>
 </resources>

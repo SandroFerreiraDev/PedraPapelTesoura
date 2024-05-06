@@ -9,7 +9,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pedra, Papel, Tesoura 1x1"
+        android:text="@string/pedra_papel_tesoura_1x1"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +26,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        android:src="@drawable/ic_rps"/>
+        android:src="@drawable/ic_rps"
+        android:contentDescription="@string/imagem_escolha_jogador"/>
 
     <ImageView
         android:id="@+id/imgComputerChoice"
@@ -37,13 +38,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        android:src="@drawable/ic_rps"/>
+        android:src="@drawable/ic_rps"
+        android:contentDescription="@string/imagem_escolha_computador"/>
 
     <Button
         android:id="@+id/btnRock"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Pedra"
+        android:text="@string/pedra"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/btnPaper"
         app:layout_constraintTop_toBottomOf="@id/imgComputerChoice"
@@ -54,7 +56,7 @@
         android:id="@+id/btnPaper"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Papel"
+        android:text="@string/papel"
         app:layout_constraintStart_toEndOf="@id/btnRock"
         app:layout_constraintEnd_toStartOf="@id/btnScissors"
         app:layout_constraintTop_toBottomOf="@id/imgComputerChoice"
@@ -66,7 +68,7 @@
         android:id="@+id/btnScissors"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tesoura"
+        android:text="@string/tesoura"
         app:layout_constraintStart_toEndOf="@id/btnPaper"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imgComputerChoice"
