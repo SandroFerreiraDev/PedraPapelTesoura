@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btn1x1 = findViewById<Button>(R.id.BT1x1)
+        val btn1x1 = findViewById<Button>(R.id.btn1x1)
         btn1x1.setOnClickListener {
             val intent = Intent(this, Game1x1Activity::class.java)
             startActivity(intent)
         }
-        val btn1x1x1 = findViewById<Button>(R.id.BT1x1x1)
+        val btn1x1x1 = findViewById<Button>(R.id.btn1x1x1)
         btn1x1x1.setOnClickListener {
             val intent = Intent(this, Game1x1x1Activity::class.java)
             startActivity(intent)

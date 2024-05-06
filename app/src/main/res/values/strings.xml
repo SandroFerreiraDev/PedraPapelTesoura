@@ -3,4 +3,8 @@
     <string name="_1x1">1x1</string>
     <string name="_1x1x1">1x1x1</string>
     <string name="pedra_papel_tesoura">Pedra Papel Tesoura</string>
+    <string name="pedra">Pedra</string>
+    <string name="papel">Papel</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="pedra_papel_tesoura_1x1x1">Pedra, Papel, Tesoura 1x1x1</string>
 </resources>
